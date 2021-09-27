@@ -174,14 +174,14 @@
 </head>
 <body>
 @include('header.header')
-        <div class="privacy">
-        <!-- <nav class="navbar navbar-dark bg-dark"> -->
+<div class="privacy">
+  <!-- <nav class="navbar navbar-dark bg-dark"> -->
 
-            <div  class="pri col-lg-2 col-md-2 col-4"><a href="./aboutus.php"><span class= "a">About Us<span></a></div>
-            <div  class="trm col-lg-2 col-md-2 col-4"><a href="./successstories.php"><span class= "a">Success Stories<span></a></div>
-            <div  class="pym col-lg-2 col-md-2 col-4"><a href="./blogs.php"><span class= "a">Blogs<span></a></div>
-            <div class="disc col-lg-2 col-md-2 col-4"><a href="./careers.php"><span class= "a">Careers<span></a></div>
-    </div>
+      <div  class="pri col-lg-2 col-md-2 col-4"><a href="{{'web_aboutus'}}"><span class= "a">About Us<span></a></div>
+      <div  class="trm col-lg-2 col-md-2 col-4"><a href="{{'web_successstories'}}"><span class= "a">Success Stories<span></a></div>
+      <div  class="pym col-lg-2 col-md-2 col-4"><a href="{{'web_blogs'}}"><span class= "a">Blogs<span></a></div>
+      <div class="disc col-lg-2 col-md-2 col-4"><a href="{{'web_careers'}}"><span class= "a">Careers<span></a></div>
+</div>
   <div class="bg-image text-center shadow-1-strong rounded text-dark" style="background-image: url('./Images/pink-web-bg.jpg');height:auto;"> 
         <div class="container ">
             <img class="desgin" src="./Images/header-5.png" alt="Image Not Found" >
@@ -191,7 +191,7 @@
     </div>      
   </div>
 
-@include('footer.footer)
+@include('footer.footer')
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

@@ -433,13 +433,14 @@
 
 <body>
 @include('header.header')
-    <div class="privacy">
-    <div class="pym col-lg-2 col-md-2 col-4"><a href="./aboutus.php"><span class= "a">About Us<span></a></div>
-        <div class="pri col-lg-2 col-md-2 col-4"><a href="./successstories.php"><span class= "a">Success Stories<span></a></div>
-        <div class="trm col-lg-2 col-md-2 col-4"><a href="./blogs.php"><span class= "a">Blogs<span></a></div>
-        <div class="pym col-lg-2 col-md-2 col-4"><a href="./careers.php"><span class= "a">Careers<span></a></div>
+<div class="privacy">
+    <!-- <nav class="navbar navbar-dark bg-dark"> -->
 
-    </div>
+        <div  class="pri col-lg-2 col-md-2 col-4"><a href="{{'web_aboutus'}}"><span class= "a">About Us<span></a></div>
+        <div  class="trm col-lg-2 col-md-2 col-4"><a href="{{'web_successstories'}}"><span class= "a">Success Stories<span></a></div>
+        <div  class="pym col-lg-2 col-md-2 col-4"><a href="{{'web_blogs'}}"><span class= "a">Blogs<span></a></div>
+        <div class="disc col-lg-2 col-md-2 col-4"><a href="{{'web_careers'}}"><span class= "a">Careers<span></a></div>
+</div>
     <!-- <div style="background: #e5920e;padding-bottom:10px;" class="container-fluid">
         <div class="row">
             <div class="col-sm-3 col-md-">
